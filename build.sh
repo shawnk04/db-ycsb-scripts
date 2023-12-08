@@ -54,6 +54,7 @@ while [[ $i -le 10 ]] ; do
         cd ..
         cd script
         sudo ./delete_tmpfs.sh
+        echo -e "\nSuccessfully finished running test script!"
         break
     elif [ $test_flag = "n" -o $test_flag = "N" ]; then
         # Do not run for script
@@ -63,3 +64,5 @@ while [[ $i -le 10 ]] ; do
         echo -e "\nPlease choose a valid input!\n"
     fi
 done
+
+echo -e "\nSuccessfully finished building $to_build!"
