@@ -16,5 +16,5 @@ Please refer to the [Tweezer](https://github.com/cssl-unist/tweezer/tree/main#in
 3) Run build script, choose which systems to build: either RocksDB, Speicher and Tweezer, or all 3
 4) Run YCSB run script and choose which systems to run it on
 
-## TODO:
+## TODO
 - YCSB scripts
