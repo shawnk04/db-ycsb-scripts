@@ -31,3 +31,5 @@ cd sgxtop
 cd ..
 # In project root directory
 docker build -t tweezer:0.0 ./
+
+echo -e "\nSuccessfully installed necessary dependencies!"
